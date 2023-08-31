@@ -8,8 +8,8 @@ export default function PublicLayout() {
 
   return (
     <div className="">
-      <LeftMenu show={menuOpen} />
-      <TopBar />
+      <LeftMenu show={menuOpen} setShow={setMenuOpen} />
+      <TopBar open={menuOpen} setOpen={setMenuOpen} />
       <Outlet />
     </div>
   );

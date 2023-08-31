@@ -13,6 +13,9 @@ export default {
           DEFAULT: '#ef4444',
           foreground: '#fff'
         },
+        content: {
+          DEFAULT: '#475569'
+        },
         card: '#fff',
         background: '#f1f5f9'
       },
